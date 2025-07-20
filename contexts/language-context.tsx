@@ -30,7 +30,18 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }
 
   const t = (key: string): string => {
-    return translations[language]?.[key] || translations[defaultLanguage][key] || key
+    // 首先尝试当前语言
+    if (translations[language]?.[key]) {
+      return translations[language][key]
+    }
+
+    // 如果当前语言没有，尝试默认语言（英文）
+    if (translations[defaultLanguage]?.[key]) {
+      return translations[defaultLanguage][key]
+    }
+
+    // 如果都没有，返回 key 本身
+    return key
   }
 
   return (

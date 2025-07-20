@@ -27,6 +27,15 @@ export const games: Game[] = [
       "Play as legendary basketball players in this exciting sports game. Shoot hoops, perform amazing dunks, and compete in thrilling matches!",
     category: "Sports",
   },
+  {
+    id: "2048-game",
+    name: "2048",
+    slug: "2048-game",
+    embedUrl: "https://www.crazygames.com/embed/2048",
+    description:
+      "The classic number puzzle game! Slide tiles to combine numbers and reach the 2048 tile. Simple to learn but challenging to master!",
+    category: "Puzzle",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {

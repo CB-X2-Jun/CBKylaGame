@@ -1,101 +1,106 @@
+// Base English translations (used as a fallback for incomplete languages)
+const en = {
+  // Navigation
+  "nav.home": "Home",
+  "nav.blog": "Blog",
+  "nav.privacy": "Privacy",
+  "nav.login": "Login",
+  "nav.games": "Games",
+
+  // Hero
+  "hero.featured": "Featured Game",
+  "hero.title": "CBKylaGame",
+  "hero.subtitle": "Epic Adventure",
+  "hero.description":
+    "Dive into a futuristic world where technology meets adventure. Battle through neon-lit cities, upgrade your cyber abilities, and become the ultimate digital warrior in CBKylaGame.",
+  "hero.playNow": "Play Now",
+  "hero.download": "Download",
+  "hero.players": "Players",
+  "hero.rating": "Rating",
+  "hero.free": "Free",
+  "hero.toPlay": "To Play",
+  "hero.previewGame": "Preview Game",
+
+  // Game Section
+  "game.readyToPlay": "Ready to",
+  "game.play": "Play?",
+  "game.description": "Jump into the action right now. No downloads required - play directly in your browser!",
+  "game.level": "Level 1",
+  "game.loading": "Loading Game...",
+  "game.initializing": "Initializing cyber systems",
+  "game.controls.move": "Use WASD to move",
+  "game.controls.jump": "Space to jump",
+  "game.controls.aim": "Mouse to aim",
+  "game.score": "Score",
+  "game.liveStats": "Live Stats",
+  "game.playersOnline": "Players Online:",
+  "game.yourBest": "Your Best:",
+  "game.globalRecord": "Global Record:",
+
+  // Game specific
+  "game.dominoDuel": "Domino Duel",
+  "game.dominoDescription":
+    "Challenge players worldwide in this strategic domino game. Match tiles, plan your moves, and dominate the board!",
+  "game.basketballLegends": "Basketball Legends 2020",
+  "game.basketballDescription":
+    "Play as legendary basketball players in this exciting sports game. Shoot hoops, perform amazing dunks, and compete in thrilling matches!",
+  "game.2048": "2048",
+  "game.2048Description":
+    "The classic number puzzle game! Slide tiles to combine numbers and reach the 2048 tile. Simple to learn but challenging to master!",
+
+  // FAQ
+  "faq.title": "Frequently Asked",
+  "faq.questions": "Questions",
+  "faq.subtitle": "Everything you need to know about CBKylaGame",
+  "faq.stillQuestions": "Still have questions?",
+  "faq.contactSupport": "Contact Support",
+  "faq.readBlog": "Read Our Blog",
+
+  // FAQ Questions
+  "faq.q1": "Is CBKylaGame free to play?",
+  "faq.a1":
+    "Yes! CBKylaGame is completely free to play. You can enjoy the full gaming experience without any upfront costs. Optional premium features are available for enhanced gameplay.",
+  "faq.q2": "What are the system requirements?",
+  "faq.a2":
+    "CBKylaGame runs directly in your web browser, so you only need a modern browser like Chrome, Firefox, Safari, or Edge. No downloads or installations required!",
+  "faq.q3": "Can I play on mobile devices?",
+  "faq.a3":
+    "CBKylaGame is optimized for both desktop and mobile devices. You can enjoy the same great experience on your smartphone or tablet.",
+  "faq.q4": "How do I save my progress?",
+  "faq.a4":
+    "Your game progress is automatically saved to your account. Simply create a free account or log in to ensure your achievements and progress are preserved across sessions.",
+  "faq.q5": "Are there multiplayer features?",
+  "faq.a5":
+    "Yes! CBKylaGame features both single-player campaigns and multiplayer modes where you can team up with friends or compete against other players worldwide.",
+  "faq.q6": "How often is the game updated?",
+  "faq.a6":
+    "We regularly update CBKylaGame with new content, features, and improvements. Major updates are released monthly, with smaller patches and fixes deployed as needed.",
+
+  // Footer
+  "footer.description":
+    "The ultimate cyberpunk gaming experience. Dive into a world where technology meets adventure with CBKylaGame.",
+  "footer.game": "Game",
+  "footer.playNow": "Play Now",
+  "footer.leaderboard": "Leaderboard",
+  "footer.achievements": "Achievements",
+  "footer.gameUpdates": "Game Updates",
+  "footer.community": "Community",
+  "footer.blog": "Blog",
+  "footer.forums": "Forums",
+  "footer.events": "Events",
+  "footer.tournaments": "Tournaments",
+  "footer.support": "Support",
+  "footer.contact": "Contact",
+  "footer.privacy": "Privacy Policy",
+  "footer.terms": "Terms of Service",
+  "footer.cookies": "Cookies",
+  "footer.rights": "All rights reserved.",
+} as const
+
 import type { LanguageCode } from "./languages"
 
 export const translations: Record<LanguageCode, Record<string, string>> = {
-  en: {
-    // Navigation
-    "nav.home": "Home",
-    "nav.blog": "Blog",
-    "nav.privacy": "Privacy",
-    "nav.login": "Login",
-    "nav.games": "Games",
-
-    // Hero
-    "hero.featured": "Featured Game",
-    "hero.title": "CBKylaGame",
-    "hero.subtitle": "Epic Adventure",
-    "hero.description":
-      "Dive into a futuristic world where technology meets adventure. Battle through neon-lit cities, upgrade your cyber abilities, and become the ultimate digital warrior in CBKylaGame.",
-    "hero.playNow": "Play Now",
-    "hero.download": "Download",
-    "hero.players": "Players",
-    "hero.rating": "Rating",
-    "hero.free": "Free",
-    "hero.toPlay": "To Play",
-    "hero.previewGame": "Preview Game",
-
-    // Game Section
-    "game.readyToPlay": "Ready to",
-    "game.play": "Play?",
-    "game.description": "Jump into the action right now. No downloads required - play directly in your browser!",
-    "game.level": "Level 1",
-    "game.loading": "Loading Game...",
-    "game.initializing": "Initializing cyber systems",
-    "game.controls.move": "Use WASD to move",
-    "game.controls.jump": "Space to jump",
-    "game.controls.aim": "Mouse to aim",
-    "game.score": "Score",
-    "game.liveStats": "Live Stats",
-    "game.playersOnline": "Players Online:",
-    "game.yourBest": "Your Best:",
-    "game.globalRecord": "Global Record:",
-
-    // Game specific
-    "game.dominoDuel": "Domino Duel",
-    "game.dominoDescription":
-      "Challenge players worldwide in this strategic domino game. Match tiles, plan your moves, and dominate the board!",
-    "game.basketballLegends": "Basketball Legends 2020",
-    "game.basketballDescription":
-      "Play as legendary basketball players in this exciting sports game. Shoot hoops, perform amazing dunks, and compete in thrilling matches!",
-
-    // FAQ
-    "faq.title": "Frequently Asked",
-    "faq.questions": "Questions",
-    "faq.subtitle": "Everything you need to know about CBKylaGame",
-    "faq.stillQuestions": "Still have questions?",
-    "faq.contactSupport": "Contact Support",
-    "faq.readBlog": "Read Our Blog",
-
-    // FAQ Questions
-    "faq.q1": "Is CBKylaGame free to play?",
-    "faq.a1":
-      "Yes! CBKylaGame is completely free to play. You can enjoy the full gaming experience without any upfront costs. Optional premium features are available for enhanced gameplay.",
-    "faq.q2": "What are the system requirements?",
-    "faq.a2":
-      "CBKylaGame runs directly in your web browser, so you only need a modern browser like Chrome, Firefox, Safari, or Edge. No downloads or installations required!",
-    "faq.q3": "Can I play on mobile devices?",
-    "faq.a3":
-      "CBKylaGame is optimized for both desktop and mobile devices. You can enjoy the same great experience on your smartphone or tablet.",
-    "faq.q4": "How do I save my progress?",
-    "faq.a4":
-      "Your game progress is automatically saved to your account. Simply create a free account or log in to ensure your achievements and progress are preserved across sessions.",
-    "faq.q5": "Are there multiplayer features?",
-    "faq.a5":
-      "Yes! CBKylaGame features both single-player campaigns and multiplayer modes where you can team up with friends or compete against other players worldwide.",
-    "faq.q6": "How often is the game updated?",
-    "faq.a6":
-      "We regularly update CBKylaGame with new content, features, and improvements. Major updates are released monthly, with smaller patches and fixes deployed as needed.",
-
-    // Footer
-    "footer.description":
-      "The ultimate cyberpunk gaming experience. Dive into a world where technology meets adventure with CBKylaGame.",
-    "footer.game": "Game",
-    "footer.playNow": "Play Now",
-    "footer.leaderboard": "Leaderboard",
-    "footer.achievements": "Achievements",
-    "footer.gameUpdates": "Game Updates",
-    "footer.community": "Community",
-    "footer.blog": "Blog",
-    "footer.forums": "Forums",
-    "footer.events": "Events",
-    "footer.tournaments": "Tournaments",
-    "footer.support": "Support",
-    "footer.contact": "Contact",
-    "footer.privacy": "Privacy Policy",
-    "footer.terms": "Terms of Service",
-    "footer.cookies": "Cookies",
-    "footer.rights": "All rights reserved.",
-  },
-
+  en,
   "zh-CN": {
     // Navigation
     "nav.home": "首页",
@@ -140,6 +145,8 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "篮球传奇2020",
     "game.basketballDescription":
       "在这个激动人心的体育游戏中扮演传奇篮球运动员。投篮得分，表演惊人扣篮，并在激烈的比赛中竞争！",
+    "game.2048": "2048",
+    "game.2048Description": "经典数字拼图游戏！滑动方块合并数字，达到2048方块。简单易学但极具挑战性！",
 
     // FAQ
     "faq.title": "常见",
@@ -229,6 +236,8 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "籃球傳奇2020",
     "game.basketballDescription":
       "在這個激動人心的體育遊戲中扮演傳奇籃球運動員。投籃得分，表演驚人灌籃，並在激烈的比賽中競爭！",
+    "game.2048": "2048",
+    "game.2048Description": "經典數字拼圖遊戲！滑動方塊合併數字，達到2048方塊。簡單易學但極具挑戰性！",
 
     // FAQ
     "faq.title": "常見",
@@ -327,6 +336,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "バスケットボールレジェンド2020",
     "game.basketballDescription":
       "このエキサイティングなスポーツゲームで伝説的なバスケットボール選手としてプレイしましょう。フープをシュートし、素晴らしいダンクを披露し、スリリングな試合で競い合いましょう！",
+    "game.2048": "2048",
+    "game.2048Description":
+      "クラシックな数字パズルゲーム！タイルをスライドして数字を組み合わせ、2048タイルに到達しましょう。学ぶのは簡単ですが、マスターするのは困難です！",
 
     // FAQ Questions
     "faq.q1": "CBKylaGameは無料でプレイできますか？",
@@ -422,6 +434,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "Légendes du basketball 2020",
     "game.basketballDescription":
       "Incarnez des joueurs de basketball légendaires dans ce jeu de sport passionnant. Tirez des paniers, effectuez des dunks incroyables et participez à des matchs palpitants!",
+    "game.2048": "2048",
+    "game.2048Description":
+      "Le jeu de puzzle numérique classique ! Faites glisser les tuiles pour combiner les nombres et atteindre la tuile 2048. Simple à apprendre mais difficile à maîtriser !",
 
     // FAQ Questions
     "faq.q1": "CBKylaGame est-il gratuit ?",
@@ -518,6 +533,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "Basketball Legenden 2020",
     "game.basketballDescription":
       "Spiele als legendäre Basketballspieler in diesem aufregenden Sportspiel. Wirf Körbe, zeige erstaunliche Dunks und tritt in spannenden Spielen an!",
+    "game.2048": "2048",
+    "game.2048Description":
+      "Das klassische Zahlen-Puzzle-Spiel! Schiebe Kacheln, um Zahlen zu kombinieren und die 2048-Kachel zu erreichen. Einfach zu lernen, aber schwer zu meistern!",
 
     // FAQ Questions
     "faq.q1": "Ist CBKylaGame kostenlos spielbar?",
@@ -614,6 +632,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "Leyendas del Baloncesto 2020",
     "game.basketballDescription":
       "Juega como jugadores de baloncesto legendarios en este emocionante juego de deportes. ¡Encesta, realiza increíbles volcadas y compite en partidos emocionantes!",
+    "game.2048": "2048",
+    "game.2048Description":
+      "¡El clásico juego de rompecabezas numérico! Desliza fichas para combinar números y alcanzar la ficha 2048. ¡Fácil de aprender pero difícil de dominar!",
 
     // FAQ Questions
     "faq.q1": "¿CBKylaGame es gratis?",
@@ -709,5 +730,217 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     "game.basketballLegends": "Koripallolegendat 2020",
     "game.basketballDescription":
       "Pelaa legendaarisina koripalloilijoina tässä jännittävänä urheilupelissä. Heitä koripalloja, tee erinomaisia volyja ja osallistu kiihdyttäviin otteluun!",
+    "game.2048": "2048",
+    "game.2048Description":
+      "Klassinen numeropuzzlepeli! Liu'uta laattoja yhdistääksesi numeroita ja saavuttaaksesi 2048-laatan. Helppo oppia mutta vaikea hallita!",
   },
+  ko: {
+    // Navigation
+    "nav.home": "홈",
+    "nav.blog": "블로그",
+    "nav.privacy": "개인정보",
+    "nav.login": "로그인",
+    "nav.games": "게임",
+
+    // Hero
+    "hero.featured": "추천 게임",
+    "hero.title": "CBKylaGame",
+    "hero.subtitle": "에픽 어드벤처",
+    "hero.description":
+      "기술과 모험이 만나는 미래 세계로 뛰어들어보세요. 네온 불빛의 도시에서 전투하고, 사이버 능력을 업그레이드하며, CBKylaGame에서 궁극의 디지털 전사가 되어보세요.",
+    "hero.playNow": "지금 플레이",
+    "hero.download": "다운로드",
+    "hero.players": "플레이어",
+    "hero.rating": "평점",
+    "hero.free": "무료",
+    "hero.toPlay": "플레이",
+    "hero.previewGame": "게임 미리보기",
+
+    // Game Section
+    "game.readyToPlay": "플레이할",
+    "game.play": "준비가 되셨나요?",
+    "game.description": "지금 바로 액션에 참여하세요. 다운로드 불필요 - 브라우저에서 바로 플레이하세요!",
+    "game.level": "레벨 1",
+    "game.loading": "게임 로딩 중...",
+    "game.initializing": "사이버 시스템 초기화 중",
+    "game.controls.move": "WASD로 이동",
+    "game.controls.jump": "스페이스로 점프",
+    "game.controls.aim": "마우스로 조준",
+    "game.score": "점수",
+    "game.liveStats": "실시간 통계",
+    "game.playersOnline": "온라인 플레이어:",
+    "game.yourBest": "최고 기록:",
+    "game.globalRecord": "세계 기록:",
+
+    // Game specific
+    "game.dominoDuel": "도미노 대결",
+    "game.dominoDescription":
+      "이 전략적인 도미노 게임에서 전 세계 플레이어들에게 도전하세요. 타일을 맞추고, 움직임을 계획하며, 보드를 지배하세요!",
+    "game.basketballLegends": "농구 레전드 2020",
+    "game.basketballDescription":
+      "이 흥미진진한 스포츠 게임에서 전설적인 농구 선수로 플레이하세요. 슛을 쏘고, 놀라운 덩크를 선보이며, 스릴 넘치는 경기에서 경쟁하세요!",
+    "game.2048": "2048",
+    "game.2048Description":
+      "클래식 숫자 퍼즐 게임! 타일을 슬라이드하여 숫자를 결합하고 2048 타일에 도달하세요. 배우기는 쉽지만 마스터하기는 어려워요!",
+
+    // FAQ
+    "faq.title": "자주 묻는",
+    "faq.questions": "질문",
+    "faq.subtitle": "CBKylaGame에 대해 알아야 할 모든 것",
+    "faq.stillQuestions": "아직 궁금한 점이 있나요?",
+    "faq.contactSupport": "지원팀 문의",
+    "faq.readBlog": "블로그 읽기",
+
+    // FAQ Questions
+    "faq.q1": "CBKylaGame은 무료인가요?",
+    "faq.a1":
+      "네! CBKylaGame은 완전히 무료입니다. 초기 비용 없이 완전한 게임 경험을 즐길 수 있습니다. 게임플레이 향상을 위한 선택적 프리미엄 기능도 제공됩니다.",
+    "faq.q2": "시스템 요구사항은 무엇인가요?",
+    "faq.a2":
+      "CBKylaGame은 웹 브라우저에서 직접 실행되므로 Chrome, Firefox, Safari, Edge와 같은 최신 브라우저만 있으면 됩니다. 다운로드나 설치가 필요하지 않습니다!",
+    "faq.q3": "모바일 기기에서 플레이할 수 있나요?",
+    "faq.a3":
+      "CBKylaGame은 데스크톱과 모바일 기기 모두에 최적화되어 있습니다. 스마트폰이나 태블릿에서도 동일한 훌륭한 경험을 즐길 수 있습니다.",
+    "faq.q4": "진행 상황을 어떻게 저장하나요?",
+    "faq.a4":
+      "게임 진행 상황은 계정에 자동으로 저장됩니다. 무료 계정을 만들거나 로그인하기만 하면 세션 간에 성취와 진행 상황이 보존됩니다.",
+    "faq.q5": "멀티플레이어 기능이 있나요?",
+    "faq.a5":
+      "네! CBKylaGame은 싱글플레이어 캠페인과 멀티플레이어 모드를 모두 제공하여 친구들과 팀을 이루거나 전 세계 다른 플레이어들과 경쟁할 수 있습니다.",
+    "faq.q6": "게임은 얼마나 자주 업데이트되나요?",
+    "faq.a6":
+      "CBKylaGame을 새로운 콘텐츠, 기능, 개선사항으로 정기적으로 업데이트합니다. 주요 업데이트는 매월 출시되며, 필요에 따라 작은 패치와 수정사항이 배포됩니다.",
+
+    // Footer
+    "footer.description": "궁극의 사이버펑크 게임 경험. CBKylaGame과 함께 기술과 모험이 만나는 세계로 뛰어들어보세요.",
+    "footer.game": "게임",
+    "footer.playNow": "지금 플레이",
+    "footer.leaderboard": "리더보드",
+    "footer.achievements": "업적",
+    "footer.gameUpdates": "게임 업데이트",
+    "footer.community": "커뮤니티",
+    "footer.blog": "블로그",
+    "footer.forums": "포럼",
+    "footer.events": "이벤트",
+    "footer.tournaments": "토너먼트",
+    "footer.support": "지원",
+    "footer.contact": "연락처",
+    "footer.privacy": "개인정보 정책",
+    "footer.terms": "서비스 약관",
+    "footer.cookies": "쿠키",
+    "footer.rights": "모든 권리 보유.",
+  },
+
+  "ko-KP": {
+    // Navigation
+    "nav.home": "홈",
+    "nav.blog": "블로그",
+    "nav.privacy": "개인정보",
+    "nav.login": "로그인",
+    "nav.games": "게임",
+
+    // Hero
+    "hero.featured": "추천 게임",
+    "hero.title": "CBKylaGame",
+    "hero.subtitle": "에픽 어드벤처",
+    "hero.description":
+      "기술과 모험이 만나는 미래 세계로 뛰어들어보세요. 네온 불빛의 도시에서 전투하고, 사이버 능력을 업그레이드하며, CBKylaGame에서 궁극의 디지털 전사가 되어보세요.",
+    "hero.playNow": "지금 플레이",
+    "hero.download": "다운로드",
+    "hero.players": "플레이어",
+    "hero.rating": "평점",
+    "hero.free": "무료",
+    "hero.toPlay": "플레이",
+    "hero.previewGame": "게임 미리보기",
+
+    // Game Section
+    "game.readyToPlay": "플레이할",
+    "game.play": "준비가 되셨나요?",
+    "game.description": "지금 바로 액션에 참여하세요. 다운로드 불필요 - 브라우저에서 바로 플레이하세요!",
+    "game.level": "레벨 1",
+    "game.loading": "게임 로딩 중...",
+    "game.initializing": "사이버 시스템 초기화 중",
+    "game.controls.move": "WASD로 이동",
+    "game.controls.jump": "스페이스로 점프",
+    "game.controls.aim": "마우스로 조준",
+    "game.score": "점수",
+    "game.liveStats": "실시간 통계",
+    "game.playersOnline": "온라인 플레이어:",
+    "game.yourBest": "최고 기록:",
+    "game.globalRecord": "세계 기록:",
+
+    // Game specific
+    "game.dominoDuel": "도미노 대결",
+    "game.dominoDescription":
+      "이 전략적인 도미노 게임에서 전 세계 플레이어들에게 도전하세요. 타일을 맞추고, 움직임을 계획하며, 보드를 지배하세요!",
+    "game.basketballLegends": "농구 레전드 2020",
+    "game.basketballDescription":
+      "이 흥미진진한 스포츠 게임에서 전설적인 농구 선수로 플레이하세요. 슛을 쏘고, 놀라운 덩크를 선보이며, 스릴 넘치는 경기에서 경쟁하세요!",
+    "game.2048": "2048",
+    "game.2048Description":
+      "클래식 숫자 퍼즐 게임! 타일을 슬라이드하여 숫자를 결합하고 2048 타일에 도달하세요. 배우기는 쉽지만 마스터하기는 어려워요!",
+
+    // FAQ
+    "faq.title": "자주 묻는",
+    "faq.questions": "질문",
+    "faq.subtitle": "CBKylaGame에 대해 알아야 할 모든 것",
+    "faq.stillQuestions": "아직 궁금한 점이 있나요?",
+    "faq.contactSupport": "지원팀 문의",
+    "faq.readBlog": "블로그 읽기",
+
+    // FAQ Questions
+    "faq.q1": "CBKylaGame은 무료인가요?",
+    "faq.a1":
+      "네! CBKylaGame은 완전히 무료입니다. 초기 비용 없이 완전한 게임 경험을 즐길 수 있습니다. 게임플레이 향상을 위한 선택적 프리미엄 기능도 제공됩니다.",
+    "faq.q2": "시스템 요구사항은 무엇인가요?",
+    "faq.a2":
+      "CBKylaGame은 웹 브라우저에서 직접 실행되므로 Chrome, Firefox, Safari, Edge와 같은 최신 브라우저만 있으면 됩니다. 다운로드나 설치가 필요하지 않습니다!",
+    "faq.q3": "모바일 기기에서 플레이할 수 있나요?",
+    "faq.a3":
+      "CBKylaGame은 데스크톱과 모바일 기기 모두에 최적화되어 있습니다. 스마트폰이나 태블릿에서도 동일한 훌륭한 경험을 즐길 수 있습니다.",
+    "faq.q4": "진행 상황을 어떻게 저장하나요?",
+    "faq.a4":
+      "게임 진행 상황은 계정에 자동으로 저장됩니다. 무료 계정을 만들거나 로그인하기만 하면 세션 간에 성취와 진행 상황이 보존됩니다.",
+    "faq.q5": "멀티플레이어 기능이 있나요?",
+    "faq.a5":
+      "네! CBKylaGame은 싱글플레이어 캠페인과 멀티플레이어 모드를 모두 제공하여 친구들과 팀을 이루거나 전 세계 다른 플레이어들과 경쟁할 수 있습니다.",
+    "faq.q6": "게임은 얼마나 자주 업데이트되나요?",
+    "faq.a6":
+      "CBKylaGame을 새로운 콘텐츠, 기능, 개선사항으로 정기적으로 업데이트합니다. 주요 업데이트는 매월 출시되며, 필요에 따라 작은 패치와 수정사항이 배포됩니다.",
+
+    // Footer
+    "footer.description": "궁극의 사이버펑크 게임 경험. CBKylaGame과 함께 기술과 모험이 만나는 세계로 뛰어들어보세요.",
+    "footer.game": "게임",
+    "footer.playNow": "지금 플레이",
+    "footer.leaderboard": "리더보드",
+    "footer.achievements": "업적",
+    "footer.gameUpdates": "게임 업데이트",
+    "footer.community": "커뮤니티",
+    "footer.blog": "블로그",
+    "footer.forums": "포럼",
+    "footer.events": "이벤트",
+    "footer.tournaments": "토너먼트",
+    "footer.support": "지원",
+    "footer.contact": "연락처",
+    "footer.privacy": "개인정보 정책",
+    "footer.terms": "서비스 약관",
+    "footer.cookies": "쿠키",
+    "footer.rights": "모든 권리 보유.",
+  },
+
+  // 为其他语言添加基本翻译，使用英文作为fallback
+  th: { ...en },
+  km: { ...en },
+  no: { ...en },
+  sv: { ...en },
+  da: { ...en },
+  ru: { ...en },
+  he: { ...en },
+  ar: { ...en },
+  ms: { ...en },
+  id: { ...en },
+  jv: { ...en },
+  pt: { ...en },
+  eo: { ...en },
+  hi: { ...en },
 }
