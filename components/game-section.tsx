@@ -56,7 +56,7 @@ export default function GameSection() {
             {/* Game Iframe */}
             <div className="relative aspect-video bg-gradient-to-br from-slate-800 to-slate-900">
               <iframe
-                src="https://www.crazygames.com/embed/basketball-legends-2020"
+                src="https://games.crazygames.com/en_US/basketball-legends-2020/index.html?v=1.335"
                 className="w-full h-full"
                 title="Basketball Legends 2020 Game"
                 allowFullScreen

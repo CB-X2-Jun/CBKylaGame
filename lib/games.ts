@@ -22,7 +22,7 @@ export const games: Game[] = [
     id: "basketball-legends-2020",
     name: "Basketball Legends 2020",
     slug: "basketball-legends-2020",
-    embedUrl: "https://www.crazygames.com/embed/basketball-legends-2020",
+    embedUrl: "https://games.crazygames.com/en_US/basketball-legends-2020/index.html?v=1.335",
     description:
       "Play as legendary basketball players in this exciting sports game. Shoot hoops, perform amazing dunks, and compete in thrilling matches!",
     category: "Sports",
