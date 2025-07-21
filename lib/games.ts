@@ -71,6 +71,13 @@ export const games: Game[] = [
     embedUrl: "https://www.crazygames.com/embed/sky-riders-buk",
     category: "Racing",
   },
+  {
+    id: "basketball-legends-2020",
+    name: "Basketball Legends 2020",
+    slug: "basketball-legends-2020",
+    embedUrl: "https://bc460d21-6fe3-487b-ab86-31f4165f9b03.poki-gdn.com/f7791747-3660-4c10-831c-1c91309003da/index.html",
+    category: "Sports",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {
