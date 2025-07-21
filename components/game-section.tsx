@@ -33,7 +33,7 @@ export default function GameSection() {
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               </div>
 
-              <div className="text-cyan-300 font-medium">Basketball Legends 2020 - {t("game.level")}</div>
+              <div className="text-cyan-300 font-medium">2048</div>
 
               <div className="flex items-center space-x-2">
                 <Button size="sm" variant="ghost" className="text-gray-400 hover:text-white">
