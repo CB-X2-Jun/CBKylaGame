@@ -72,11 +72,11 @@ export const games: Game[] = [
     category: "Racing",
   },
   {
-    id: "basketball-legends-2020",
-    name: "Basketball Legends 2020",
-    slug: "basketball-legends-2020",
-    embedUrl: "https://bc460d21-6fe3-487b-ab86-31f4165f9b03.poki-gdn.com/f7791747-3660-4c10-831c-1c91309003da/index.html",
-    category: "Sports",
+    id: "moutain-jeep-drive",
+    name: "Moutain Jeep Drive",
+    slug: "moutain-jeep-drive",
+    embedUrl: "https://play.gamepix.com/moutain-jeep-drive/embed",
+    category: "Racing",
   },
 ]
 
