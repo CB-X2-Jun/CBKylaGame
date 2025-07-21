@@ -64,6 +64,13 @@ export const games: Game[] = [
     embedUrl: "https://www.crazygames.com/embed/idle-construction-3d",
     category: "Idle",
   },
+  {
+    id: "sky-riders",
+    name: "Sky Riders",
+    slug: "sky-riders",
+    embedUrl: "https://www.crazygames.com/embed/sky-riders-buk",
+    category: "Racing",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {
