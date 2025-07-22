@@ -78,6 +78,13 @@ export const games: Game[] = [
     embedUrl: "https://play.gamepix.com/moutain-jeep-drive/embed",
     category: "Racing",
   },
+  {
+    id: "number-guessing-1-to-100",
+    name: "Number Guessing",
+    slug: "number-guessing-1-to-100",
+    embedUrl: "https://cb-x2-jun.github.io/CBKylaGameEmbed/embed/number-guessing",
+    category: "Strategy",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {
