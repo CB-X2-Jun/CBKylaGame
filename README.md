@@ -1,3 +1,9 @@
+*Website:*
+
+- **Netlify** <https://cbkylagame.netlify.app/>
+- **Vercel** <https://v0-game-website-requirements-smoky.vercel.app/>
+
+
 # Game website requirements
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
