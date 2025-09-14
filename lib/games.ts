@@ -92,6 +92,13 @@ export const games: Game[] = [
     embedUrl: "https://florr.io",
     category: "Adventure",
   },
+  {
+    id: "basketball-legends-2020",
+    name: "Basketball Legends 2020",
+    slug: "basketball-legends-2020",
+    embedUrl: "https://play.gamepix.com/basketball-legends-2020/embed",
+    category: "Sports",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {
