@@ -99,6 +99,20 @@ export const games: Game[] = [
     embedUrl: "https://play.gamepix.com/basketball-legends-2020/embed",
     category: "Sports",
   },
+  {
+    id: "doodle-road",
+    name: "Doodle Road",
+    slug: "doodle-road",
+    embedUrl: "https://www.crazygames.com/embed/doodle-road",
+    category: "Casual",
+  },
+  {
+    id: "crazy-office-slap-and-smash",
+    name: "Crazy Office: Slap and Smash!",
+    slug: "crazy-office-slap-and-smash",
+    embedUrl: "https://www.crazygames.com/embed/crazy-office-slap-and-smash",
+    category: "Casual",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {
