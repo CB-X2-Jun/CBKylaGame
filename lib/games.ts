@@ -85,6 +85,13 @@ export const games: Game[] = [
     embedUrl: "https://cb-x2-jun.github.io/CBKylaGameEmbed/embed/number-guessing",
     category: "Strategy",
   },
+  {
+    id: "florr",
+    name: "Florr.io",
+    slug: "florr",
+    embedUrl: "https://florr.io",
+    category: "Adventure",
+  },
 ]
 
 export function getGameBySlug(slug: string): Game | undefined {
